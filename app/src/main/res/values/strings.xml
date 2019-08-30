@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CicloDeVida</string>
+    <string name="center_center">Texto center</string>
+    <string name="center_left">Texto center/left</string>
+    <string name="bottom_right">Texto bottom/right</string>
+    <string name="top_center">Texto top/center</string>
+    <string name="bottom_center">Texto bottom/center</string>
+    <string name="botao">Enviar</string>
+</resources>

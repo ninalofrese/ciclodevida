@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="206dp"
+        android:padding="10dp"
+        android:gravity="center|center"
+        android:background="@color/rosaPink"
+        android:textColor="@color/branco"
+        android:textSize="18sp"
+        android:text="@string/center_center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="70dp"
+        android:padding="10dp"
+        android:gravity="center|left"
+        android:background="@color/rosaClaro"
+        android:textColor="@color/branco"
+        android:textSize="18sp"
+        android:text="@string/center_left" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="70dp"
+        android:padding="5dp"
+        android:gravity="bottom|right"
+        android:background="@color/roxo"
+        android:textColor="@color/branco"
+        android:textSize="18sp"
+        android:text="@string/bottom_right" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:orientation="horizontal"
+        >
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/rosaPink"
+            android:padding="5dp"
+            android:gravity="top|center"
+            android:text="@string/top_center"
+            android:textColor="@color/branco"
+            android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="bottom|center"
+                android:background="@color/azulEscuro"
+                android:padding="5dp"
+                android:text="@string/bottom_center"
+                android:textColor="@color/branco"
+                android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botao"
+        android:layout_margin="20dp"
+        android:background="@color/roxo"
+        android:textColor="@color/branco"
+        android:textAllCaps="false"
+        >
+
+    </Button>
+
+</LinearLayout>
